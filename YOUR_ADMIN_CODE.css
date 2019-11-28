@@ -1,0 +1,58 @@
+/* Setting a height value to provide vertical scroll to the table*/
+.results {
+
+	height: 250px;
+	overflow: auto;
+}
+/* Keeping the header of the table stick when user scrolls down or up*/
+.results thead th { 
+
+	top: 0; 
+	position: sticky; 
+	
+}
+
+/*Maintaining the z-index of the header of the first child (the checkbox) so it is a layer above the table data */
+.results thead th:first-child {
+
+  left: 0;
+  z-index: 9999;
+  
+}
+/*Maintaining the z-index of the body of the first child (the checkbox) so it is a layer above the table data */
+.results tbody th:first-child {
+
+  z-index: 9999;
+  
+}
+/*Maintaining the z-index of the header of the 2nd child (the username) so it is a layer above the table data */
+.results thead th:nth-child(2) {
+
+  left: 32px; /*Position at which it should stick*/
+  z-index: 9999;
+
+}
+/*Positioning of html element td (table data) of first child*/
+.results tbody td:first-child {
+
+  left: 0;
+  position: sticky;
+ 
+}
+/*Position of HTML element th of first child*/
+.results tbody th:first-child {
+
+  left: 32px;
+  position: sticky;
+  
+}
+/*Position at which it should stick*/
+.results tbody td:nth-child(2),th:nth-child(2)  { 
+
+	left:32px;
+	position:sticky;
+  
+}
+
+ 
+
