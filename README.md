@@ -6,8 +6,8 @@ Change the style such that when user scrolls down to view more content (rows), t
 ## Solution:
 - Add a vertical scrollbar (overflow-y).
 - Set the position attribute of header of table to sticky (Sticks to the position).
-## Snapshot with vertical scrollbar
-<br>
+## Snapshot with vertical scrollbar:
+
 ![Image of table](https://github.com/shw97/medAdvisor/blob/master/Table%20with%20vertical%20scroll.png)
 Snapshot after scrolling vertically (Header remains fixed(sticks))
 <br>
