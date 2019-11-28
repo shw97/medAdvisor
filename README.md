@@ -23,3 +23,7 @@ Change the style such that when user scrolls to view more content to the right, 
 - Snapshot after scrolling horizontally (First two columns stick)
 
 ![Image of table](https://github.com/shw97/medAdvisor/blob/master/Table%20after%20horizontal%20scroll%202.png)
+
+## Snapshot:
+- Complete Result 
+![Image of table](https://github.com/shw97/medAdvisor/blob/master/Table%20with%20vertical%20and%20horizontal%20scroll.png)
