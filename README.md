@@ -1,5 +1,5 @@
 # medAdvisor
-CSS Changes for the exercise
+CSS Changes for the exercise (Solution changes are listed in the file YOUR_ADMIN_CODE.CSS. This file needs to be included in the static folder (A folder usually pointing to styles and functionalities in MVT framework)
 ## Task 1:
 Change the style such that when user scrolls down to view more content (rows), the header row is still visible.
 <br><br>
